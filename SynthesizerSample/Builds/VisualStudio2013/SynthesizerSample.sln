@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2013
+Project("{245C30EC-11E0-43FF-DA47-21059345B643}") = "SynthesizerSample", "SynthesizerSample.vcxproj", "{A6DB71B8-FD1F-915C-2998-412A95468B05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6DB71B8-FD1F-915C-2998-412A95468B05}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A6DB71B8-FD1F-915C-2998-412A95468B05}.Debug|Win32.Build.0 = Debug|Win32
+		{A6DB71B8-FD1F-915C-2998-412A95468B05}.Release|Win32.ActiveCfg = Release|Win32
+		{A6DB71B8-FD1F-915C-2998-412A95468B05}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

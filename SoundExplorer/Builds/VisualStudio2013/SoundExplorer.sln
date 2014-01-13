@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2013
+Project("{EEF62348-5282-19A9-2774-2FCC82658DA1}") = "SoundExplorer", "SoundExplorer.vcxproj", "{9A8F8FC5-8766-0FDA-69C4-03B36A5C3425}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A8F8FC5-8766-0FDA-69C4-03B36A5C3425}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9A8F8FC5-8766-0FDA-69C4-03B36A5C3425}.Debug|Win32.Build.0 = Debug|Win32
+		{9A8F8FC5-8766-0FDA-69C4-03B36A5C3425}.Release|Win32.ActiveCfg = Release|Win32
+		{9A8F8FC5-8766-0FDA-69C4-03B36A5C3425}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

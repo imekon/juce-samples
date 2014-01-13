@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="iwKST4" name="SoundExplorer" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.SoundExplorer" includeBinaryInAppConfig="1"
+              jucerVersion="3.1.0">
+  <MAINGROUP id="rASBmC" name="SoundExplorer">
+    <GROUP id="{B45A9CB0-36DC-F548-FA78-8F473D123D66}" name="Source">
+      <FILE id="rkP4Fq" name="SoundPlayer.cpp" compile="1" resource="0" file="Source/SoundPlayer.cpp"/>
+      <FILE id="E3m7Cw" name="SoundPlayer.h" compile="0" resource="0" file="Source/SoundPlayer.h"/>
+      <FILE id="umOYR6" name="MainWindow.cpp" compile="1" resource="0" file="Source/MainWindow.cpp"/>
+      <FILE id="bdbgZx" name="MainWindow.h" compile="0" resource="0" file="Source/MainWindow.h"/>
+      <FILE id="c9zHrl" name="SampleItem.cpp" compile="1" resource="0" file="Source/SampleItem.cpp"/>
+      <FILE id="hroIaV" name="SampleItem.h" compile="0" resource="0" file="Source/SampleItem.h"/>
+      <FILE id="jyuCYn" name="SoundListModel.cpp" compile="1" resource="0"
+            file="Source/SoundListModel.cpp"/>
+      <FILE id="CURgW7" name="SoundListModel.h" compile="0" resource="0"
+            file="Source/SoundListModel.h"/>
+      <FILE id="SJUXrn" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="h0HQ0u" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="WUPHjr" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2013 targetFolder="Builds/VisualStudio2013">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="SoundExplorer"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="2" targetName="SoundExplorer"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../toolkits/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../toolkits/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../toolkits/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../toolkits/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../toolkits/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../toolkits/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../toolkits/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../toolkits/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../toolkits/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../toolkits/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../toolkits/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2013>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="1" optimisation="1" targetName="SoundExplorer"/>
+        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="0" optimisation="2" targetName="SoundExplorer"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../toolkits/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../toolkits/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../toolkits/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../toolkits/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../toolkits/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../toolkits/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../toolkits/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../toolkits/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../toolkits/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../toolkits/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../toolkits/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
